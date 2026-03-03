@@ -3,9 +3,9 @@ area = int
 lado = int
 
 ## Entrada
-lado = int(input('Digite a area do quadrado:'))
+lado = int(input('Digite a área do quadrado:'))
 
 area = (lado * lado)
 
 ## Saida
-print('A area e de:', area)
+print('A área é de:', area)

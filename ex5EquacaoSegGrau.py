@@ -1,5 +1,13 @@
 import math
 
+## Declaracao de variaveis
+a = float
+b = float
+c = float
+delta = float
+raiz1 = float
+raiz2 = float
+
 ## Inicio
 print('CALCULADORA DE RAIZ QUADRADA')
 

@@ -9,4 +9,4 @@ celsius = int(input('Digite a temperatura em Celsius:'))
 fahrenheit = (9 * celsius + 160)/5
 
 ## Saida
-print('A temperatura em fahrenheit e de:', fahrenheit)
+print('A temperatura em fahrenheit é de:', fahrenheit)

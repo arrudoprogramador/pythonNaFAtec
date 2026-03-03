@@ -1,3 +1,9 @@
+## Declaracao de variaveis
+anoAtual = int
+anoNasc = int
+idadeFutura = int
+idade = int
+
 ## Inicio
 anoNasc = int(input('Digite o ano de seu nascimento:'))
 anoAtual = int(input('Digite o ano atual:'))
