@@ -5,7 +5,6 @@ lado = int
 ## Entrada
 lado = int(input('Digite a area do quadrado:'))
 
-## Processamento
 area = (lado * lado)
 
 ## Saida
