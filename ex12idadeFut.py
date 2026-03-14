@@ -1,8 +1,8 @@
 ## Declaracao de variaveis
-anoAtual = int
-anoNasc = int
-idadeFutura = int
-idade = int
+anoAtual: int = 0
+anoNasc: int = 0
+idadeFutura: int = 0
+idade: int = 0
 
 ## Inicio
 anoNasc = int(input('Digite o ano de seu nascimento:'))

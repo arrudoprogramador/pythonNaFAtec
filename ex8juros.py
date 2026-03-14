@@ -1,6 +1,6 @@
 ## Declaracao de variaveis
-valorFinal = float
-valorDeposito = float
+valorFinal: float = 0
+valorDeposito: float = 0
 
 # Inicio
 valorDeposito = float(input('Digite o valor depositado:'))

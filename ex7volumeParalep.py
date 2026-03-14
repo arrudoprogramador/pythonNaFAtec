@@ -1,8 +1,8 @@
 ## Declaracao de variaveis
-comprimento = float
-altura = float
-largura = float
-area = float
+comprimento: float = 0
+altura: float = 0
+largura: float = 0
+area: float = 0
 
 ## Inicio
 comprimento = float(input('Digite o valor do comprimento:'))

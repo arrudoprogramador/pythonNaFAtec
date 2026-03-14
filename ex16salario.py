@@ -1,8 +1,8 @@
 ## Declaracao de variaveis
-horasTraba = float
-valorHora = float
-porcDesc = float
-numDep = float
+horasTraba: float = 0
+valorHora: float = 0
+porcDesc: float = 0
+numDep: float = 0
 
 # Inicio
 horasTraba = float(input('Digite a quantidade de horas trabalhadas:'))

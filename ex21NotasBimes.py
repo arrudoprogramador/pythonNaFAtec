@@ -1,6 +1,6 @@
 ## Declaracao de variaveis
 notas = []
-soma = 0
+soma: int = 0
 
 ## Inicio
 for i in range(4):

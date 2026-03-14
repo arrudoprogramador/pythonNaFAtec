@@ -1,9 +1,9 @@
 ## Declaracao de variaveis
-numA = int
-numB = int
-quaNumA = int
-quaNumB = int
-soma = int
+numA: int = 0
+numB: int = 0
+quaNumA: int = 0
+quaNumB: int = 0
+soma: int = 0
 
 ## Inicio
 numA = int(input('Digite o primeiro valor:'))

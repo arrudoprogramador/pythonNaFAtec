@@ -1,7 +1,7 @@
 ## Declaracao de variaveis
-numA = int
-numB = int
-diferenca = int
+numA: int = 0
+numB: int = 0
+diferenca: int = 0
 
 ## Inicio
 numA = int(input("Digite o primeiro valor:"))

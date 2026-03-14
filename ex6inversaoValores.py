@@ -1,7 +1,7 @@
 ## Declaracao de variaveis
-x = int
-y = int
-z = int
+x: int = 0
+y: int = 0
+z: int = 0
 
 
 ## Inicio

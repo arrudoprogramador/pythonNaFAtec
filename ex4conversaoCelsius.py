@@ -1,6 +1,6 @@
 ## Declaracao de variaveis
-celsius = int
-fahrenheit = int
+celsius: int = 0
+fahrenheit: int = 0
 
 ## Entrada
 celsius = int(input('Digite a temperatura em Celsius:'))

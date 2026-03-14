@@ -1,7 +1,7 @@
 ## Declaracao de variaveis
-primAng = float
-segundAng = float
-tercAng = float
+primAng: float = 0
+segundAng: float = 0
+tercAng: float = 0
 
 ## Inicio
 primAng = float(input('Digite o valor do primeiro angulo:'))

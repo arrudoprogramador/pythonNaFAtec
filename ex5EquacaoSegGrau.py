@@ -1,12 +1,12 @@
 import math
 
 ## Declaracao de variaveis
-a = float
-b = float
-c = float
-delta = float
-raiz1 = float
-raiz2 = float
+a: float = 0
+b: float = 0
+c: float = 0
+delta: float = 0
+raiz1: float = 0
+raiz2: float = 0
 
 ## Inicio
 a = float(input('Digite o valor de A: '))

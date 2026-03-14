@@ -1,7 +1,7 @@
 ## Declaracao de variaveis
-area = int
-base = int
-altura = int
+area: int = 0
+base: int = 0
+altura: int = 0
 
 ## Entrada
 base = int(input('Digite a base do triângulo:'))

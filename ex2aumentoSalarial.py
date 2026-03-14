@@ -1,6 +1,6 @@
 ## Declarar 
-salario = float
-salarioReajuste = float
+salario: float = 0
+salarioReajuste: float = 0
 
 ## Inicio
 salario = float(input('Digite seu salário atual:'))

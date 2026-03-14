@@ -1,9 +1,9 @@
 ## Declaracao de variaveis
-litrosGast = float
-tempPercur = float
-velocidMedia = float
-distancia = float
-consumo = 12.0
+litrosGast: float = 0
+tempPercur: float = 0
+velocidMedia: float = 0
+distancia: float = 0
+consumo: float = 12.0
 
 ## Inicio
 litrosGast = float(input('Digite quantos litros foram gastos:'))

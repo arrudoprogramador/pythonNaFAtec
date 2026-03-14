@@ -1,6 +1,6 @@
 ## Declaracao de variaveis
-kgAlimento = float
-duracao = float
+kgAlimento: float = 0
+duracao: float = 0
 
 ## Inicio
 kgAlimento = float(input('Digite os kg do alimento:'))

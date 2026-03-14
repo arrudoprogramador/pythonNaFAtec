@@ -1,6 +1,6 @@
 ## Declaracao de variaveis
-raio = float
-compCircunf = float
+raio: float = 0
+compCircunf: float = 0
 
 ## Inicio
 raio = float(input('Digite o valor do raio:'))

@@ -1,6 +1,6 @@
 ## Declaracao de variaveis
-area = int
-lado = int
+area: int = 0
+lado: int = 0
 
 ## Entrada
 lado = int(input('Digite a área do quadrado:'))

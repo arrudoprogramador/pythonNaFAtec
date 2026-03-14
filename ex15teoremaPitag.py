@@ -1,9 +1,9 @@
 import math
 
 ## Declaracao de variaveis
-catetoA = int
-catetoB = int
-hipotenusa = int
+catetoA: int = 0
+catetoB: int = 0
+hipotenusa: int = 0
 
 ## Inicio
 catetoA = int(input('Digite o valor do cateto A:'))

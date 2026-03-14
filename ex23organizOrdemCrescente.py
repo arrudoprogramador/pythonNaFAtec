@@ -1,8 +1,8 @@
 ## Declaracao de variaveis
-valorA = int
-valorB = int
-valorC = int
-valorD = int
+valorA: int = 0
+valorB: int = 0
+valorC: int = 0
+valorD: int = 0
 
 ## Inicio
 valorA = int(input("Digite o primeiro valor: "))
