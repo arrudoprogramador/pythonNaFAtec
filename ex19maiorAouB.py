@@ -1,18 +1,28 @@
 ## Declaracao de variaveis
-numA: int = 0
-numB: int = 0
+numA: int = 0 
+numB: int = 0 
 maior: int = 0
 
 ## Inicio
-numA = int(input("Digite o primeiro valor:"))
-numB = int(input("Digite o segundo valor:"))
+def maiorOuMenor():
+    global numA, numB, maior
 
-if(numA > numB):
-    maior = numA
-elif(numB > numA):
-    maior = numB
-elif(numB == numA):
-    maior = numA
+    numA = int(input("Digite o primeiro valor:"))
+    numB = int(input("Digite o segundo valor:"))
 
-print("O maior número é o:", maior)
+    if(numA > numB):
+        maior = numA
+    elif(numB > numA):
+        maior = numB
+    elif(numB == numA):
+        maior = numA
+
+    print("O maior número é o:", maior)
+
+def main():
+    maiorOuMenor()
+
+if __name__ == "__main__":
+    main()
+
 ## Fim
