@@ -14,15 +14,9 @@ else:
     inicio = numB
     fim = numA
 
-for num in range(inicio, fim + 1):
-    divisores = 0
+for i in range(inicio, fim + 1):
+    if i % 2 != 0:
+        soma += i 
 
-    for i in range(1, num + 1):
-        if num % i == 0:
-            divisores = divisores + 1
-
-    if divisores == 2:
-        soma = soma + num
-
-print("Soma dos números primos:", soma)
+print("Soma dos números impares:", soma)
 ## Fim
