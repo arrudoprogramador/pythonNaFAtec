@@ -7,13 +7,14 @@ def processo(numVezes):
         a, b = b, a + b
 
 def main():
+    pastaInicial = "Exercícios 16.04.2026"
     pasta = "temp"
     arquivo = "saida.txt"
 
     if not os.path.exists(pasta):
         os.makedirs(pasta)
 
-    caminho = os.path.join(pasta, arquivo)
+    caminho = os.path.join(pastaInicial, pasta, arquivo)
 
     n = int(input("Digite n: "))
 
