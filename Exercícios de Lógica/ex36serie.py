@@ -45,3 +45,5 @@ termos, soma = calcular_serie(N)
 print("Resultado:", soma)
 
 gravar_arquivo(termos, soma)
+
+
