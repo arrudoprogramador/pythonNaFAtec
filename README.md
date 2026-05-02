@@ -10,5 +10,5 @@
 ---
 
 <p align="center">
-  <sub>made with 🐍 · FATEC Zona Leste · em progresso constante</sub>
+  <sub>made with Python · FATEC Zona Leste
 </p>
