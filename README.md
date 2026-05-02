@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/badge/foco-aprendizado-4CAF50?style=flat-square" />
 </p>
 
----
-
 <p align="center">
   <sub>made with Python · FATEC Zona Leste
 </p>
