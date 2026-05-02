@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/github/license/arrudoprogramador/pythonNaFatec?style=flat-square" />
 </p>
 
-<h1 align="center">🐍 Python Exercises</h1>
+<h1 align="center">🐍 Python exercises proposed at FATEC Zona Leste in the first semester. </h1>
 
 <p align="center">
   <b>Automation • Scripts • Logic • Backend</b>
