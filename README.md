@@ -1,1 +1,1 @@
-Repositório para entrega dos exercícios propostos no 1° semestre da FATEC Zona Leste.
+Repositório para entrega de todos os exercícios propostos no 1° semestre da FATEC Zona Leste.
