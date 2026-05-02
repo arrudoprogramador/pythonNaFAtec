@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/🐍_Python-Exercises-3776AB?style=for-the-badge&logoColor=white" />
-</p>
-
-<h1 align="center">🐍 Python Exercises</h1>
+<h1 align="center">🐍</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white" />
