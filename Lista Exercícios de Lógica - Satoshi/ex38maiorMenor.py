@@ -1,7 +1,7 @@
 import os
 
 num = [0] * 10
-dir = 'temp/exercicios'
+dir = 'Lista Exercícios de Lógica - Satoshi/temp/exercicios'
 arq = 'ex38.txt'
 
 def criar_pasta():
