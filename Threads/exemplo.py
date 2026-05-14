@@ -1,9 +1,10 @@
-import time
 import multiprocessing
+import time
 
 def processamento(id):
-    time.sleep(0.5)
-    print('Thread #', id)
+    print('Inicio do processamento',id)
+    time.sleep(0.1)
+    print('Fim do processamento',id)
 
 def main():
     i: int = 0
@@ -13,7 +14,7 @@ def main():
         params[i] = i
 
     with multiprocessing.Pool(processes=5) as pool:
-        pool.map(processamento, params)
-    
+        pool.map(processamento, params) #start
+
 if __name__ == '__main__':
     main()
