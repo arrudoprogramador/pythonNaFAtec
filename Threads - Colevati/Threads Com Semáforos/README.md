@@ -1,4 +1,4 @@
-<h4 align="center">Exercícios:</h4>
+<h1 align="center">Exercícios:</h1>
 <p>
     <strong>1)</strong> Fazer uma aplicação, console, que gerencie a figura abaixo:
     Para tal, usar uma variável sentido, que será alterado pela Thread que controla cada carro
