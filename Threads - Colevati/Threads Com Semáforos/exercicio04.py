@@ -4,32 +4,27 @@ import time
 
 pista = threading.Semaphore(5)
 equipes = {
-    "Volkswagen": threading.Lock(),
-    "Chevrolet": threading.Lock(),
-    "Ford": threading.Lock(),
-    "Fiat": threading.Lock(),
-    "Toyota": threading.Lock(),
-    "Honda": threading.Lock(),
-    "Renault": threading.Lock()
+    "Volkswagen": threading.Semaphore(1),
+    "Chevrolet": threading.Semaphore(1),
+    "Ford": threading.Semaphore(1),
+    "Fiat": threading.Semaphore(1),
+    "Toyota": threading.Semaphore(1),
+    "Honda": threading.Semaphore(1),
+    "Renault": threading.Semaphore(1)
 }
 
 def piloto(nome, equipe):
-    lock_equipe = equipes[equipe]
-    lock_equipe.acquire()
-    pista.acquire()
+    with equipes[equipe]:
+        with pista:
 
-    try:
-        print(f"{nome} da equipe {equipe} entrou na pista\n")
-        for volta in range(1, 4):
-            tempo_volta = round(random.uniform(1, 3), 2)
-            time.sleep(tempo_volta)
+            print(f"{nome} da equipe {equipe} entrou na pista\n")
+            
+            for volta in range(1, 4):
+                tempo_volta = round(random.uniform(1, 3), 2)
+                time.sleep(tempo_volta)
 
-            print(f"{nome} - {equipe} " f"completou volta {volta} " f"em {tempo_volta} segundos")
-        print(f"\n{nome} saiu da pista\n")
-
-    finally:
-        pista.release()
-        lock_equipe.release()
+                print(f"{nome} - {equipe} " f"completou volta {volta} " f"em {tempo_volta} segundos")
+            print(f"\n{nome} saiu da pista\n")
 
 carros = [
     ("Fusca Azul", "Volkswagen"),
@@ -44,14 +39,14 @@ carros = [
     ("Uno com Escada", "Fiat"),
     ("Palio Fire", "Fiat"),
 
-    ("Corolla Brad Pitt", "Toyota"),
-    ("Etios Indestrutível", "Toyota"),
+    ("Corolla vovô", "Toyota"),
+    ("Etios Nãopais", "Toyota"),
 
-    ("Civic Rebaixado", "Honda"),
-    ("Fit Surpreendente", "Honda"),
+    ("Civic manco", "Honda"),
+    ("Fit rosa", "Honda"),
 
     ("Kwid de Firma", "Renault"),
-    ("Sandero RS", "Renault")
+    ("Sandero quadradão", "Renault")
 ]
 
 threads = []
